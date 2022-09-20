@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5%;
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.top-banner {
+
+    background-image: url('image/top-banner.png');
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.mid-banner {
+    background-image: url('image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.or {
+    color: orange;
+}
+
+.ex-item {
+    width: 40%;
+    box-shadow: 5px 7px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+#pro {
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+.fo {
+    text-align: center;
+}
+
+#new {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
